@@ -6,8 +6,6 @@
 #include "Main.h"
 #include <vector>
 
-
-
 #define OFFSET_UWORLD 0xb78bc70
 
 ImFont* m_pFont;
@@ -23,6 +21,7 @@ DWORD_PTR Ulevel;
 
 Vector3 localactorpos;
 Vector3 Localcam;
+
 
 uint64_t TargetPawn;
 int localplayerID;
